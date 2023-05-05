@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(168, 18, 18);
 }
 
 canvas {
@@ -12,21 +12,67 @@ canvas {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 800px;
+  background: rgb(236, 126, 126);
 }
 
 .project {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin: 20px;
   border: 2px solid #000000;
   border-radius: 10px;
   width: 750px;
+  align-self: center;
+  background: rgb(240, 158, 158);
 }
 
 .beschrijving {
   margin-left: 20px;
+  margin: 5px;
 }
 
 .titel {
   width: 150px;
+  margin: 5px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2c8112;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #b6f1a3;
+  color: #000000;
+}
+.active {
+  background-color: #104201;
+}
+
