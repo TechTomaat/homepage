@@ -2,7 +2,7 @@ let bubble1;
 let bubbles = [];
 function setup() {
   createCanvas(1800, 1080);
-  for(let i = 0; i < 100; i++){
+  for(let i = 0; i < 1000; i++){
     bubble1 = new bubble();
     bubbles.push(bubble1);
   }

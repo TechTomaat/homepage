@@ -2,7 +2,7 @@ class bubble{
 constructor(x){
  this.x = 450;
  this.y = 450;
- this.r = 200;
+ this.r = 50;
  this.kleur = int(random(0, 6));
  this.x_snelheid = random(-5, 5);
  this.y_snelheid = random(-5, 5);
