@@ -5,7 +5,7 @@ let xsnelheid;
 let ysnelheid;
 function setup() {
   createCanvas(900, 900);
- for(let i = 0; i < 500; i++){
+ for(let i = 0; i < 100; i++){
   particle1 = new particle();
   particles.push(particle1);
  }
